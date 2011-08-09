@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 1
 Bundle-Name: nuxeo-cmis-event
 Bundle-SymbolicName: com.rlnx.nuxeo.cmis.event;singleton:=true
-Bundle-Version: 0.0.2
+Bundle-Version: 0.1.0
 Bundle-Vendor: Revolution Linux
 Nuxeo-Component: 
   OSGI-INF/listener-contrib.xml
