@@ -5,11 +5,10 @@
 		point="listener">
 		<listener name="cmisEventListener" async="true" postCommit="true"
 			class="com.rlnx.nuxeo.cmis.CmisActionListener">
-			<event>documentModified</event>
-			
+			<!-- web interface modifications -->			
 			<event>documentLocked</event>
 			<event>documentUnlocked</event>
-			
+			<!-- cmis and other modifications -->
 			<event>documentCheckedIn</event>
 			<event>documentCheckedOut</event>
 		</listener>
