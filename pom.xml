@@ -8,7 +8,6 @@
 	<packaging>jar</packaging>
 
 	<name>rlnx-nuxeo-cmis-event</name>
-	<url>http://maven.apache.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -62,11 +61,11 @@
 	</repositories>
 
 	<dependencies>
-    <dependency>
-    	<groupId>org.nuxeo.ecm.core</groupId>
-    	<artifactId>nuxeo-core-event</artifactId>
-    	<version>5.4.2</version>
-    </dependency>
+	    <dependency>
+	    	<groupId>org.nuxeo.ecm.core</groupId>
+	    	<artifactId>nuxeo-core-event</artifactId>
+	    	<version>5.4.2</version>
+	    </dependency>
 	</dependencies>
 
 </project>
